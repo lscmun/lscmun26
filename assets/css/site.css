@@ -159,7 +159,7 @@ ul{ margin:0; padding:0; list-style:none; }
 }
 .nav__links a:hover{ color:#F1EACD; background:rgba(241,234,205,.09); }
 .nav__links a[aria-current="page"]{ color:#241C13; background:#8EAEA9; font-weight:600; }
-.nav__links-cta{ display:none; }
+.nav__links li.nav__links-cta{ display:none; }
 .nav__cta{ flex:none; }
 .nav__toggle{ display:none; margin-left:auto; background:none;
   border:1px solid rgba(241,234,205,.28);
@@ -182,7 +182,7 @@ ul{ margin:0; padding:0; list-style:none; }
   }
   .nav__links[hidden]{ display:none; }
   .nav__links a{ padding:.85rem 1rem; font-size:.9375rem; }
-  .nav__links-cta{ display:flex; }
+  .nav__links li.nav__links-cta{ display:flex; }
   .nav__links-cta a{ color:#F1EACD; background:var(--moss); font-weight:600; }
   .nav__links-cta a:hover{ background:var(--moss); opacity:.9; }
 }
