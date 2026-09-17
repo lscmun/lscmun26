@@ -130,7 +130,7 @@ ul{ margin:0; padding:0; list-style:none; }
      it creates, which loops. Insets cannot exceed the viewport. */
   position:fixed; top:1rem; left:1rem; right:1rem; z-index:100;
   max-width:1140px; margin-inline:auto;
-  display:flex; align-items:center; gap:var(--s3);
+  display:flex; align-items:center; gap:.25rem;
   padding:.5rem .5rem .5rem 1rem; border-radius:999px;
   /* Solid: a translucent bar takes on the colour of whatever scrolls
      under it, so the header appeared to change colour mid-scroll. */
